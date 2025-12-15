@@ -12,6 +12,7 @@ project "JoltPhysics"
         "Jolt/**.h",
         "Jolt/**.inl",
         "Jolt/**.cpp",
+        "HelloWorld/**.cpp"
     }
 
     removefiles
@@ -19,12 +20,11 @@ project "JoltPhysics"
         "Samples/**",
         "TestFramework/**",
         "UnitTests/**",
-        "HelloWorld/**",
         "JoltViewer/**",
         "PerformanceTest/**",
         "Docs/**",
         "Build/**",
-        "Assets/**",
+        "Assets/**"
     }
 
     includedirs
