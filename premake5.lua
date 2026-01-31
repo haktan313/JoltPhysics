@@ -36,8 +36,6 @@ project "JoltPhysics"
         systemversion "latest"
         defines
         {
-            "JPH_PLATFORM_WINDOWS",
-            "JPH_COMPILER_MSVC",
             "JPH_FLOATING_POINT_EXCEPTIONS_DISABLED"
         }
         buildoptions
